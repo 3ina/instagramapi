@@ -4,7 +4,7 @@ class InstagramChecker:
 
     def __init__(self):
         self.cl = Client()
-        self.cl.login('seproject20023','se2023project' )
+        self.cl.login('username','password' )
 
     def get_all_information(self, username: str):
         try:
